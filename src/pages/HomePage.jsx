@@ -1,7 +1,11 @@
-
+import Api from "../components/productsHome/Product";
 
 const HomePage = () => {
-    return <h2>Home</h2>;
-}
+	return (
+		<>
+			<Api />
+		</>
+	);
+};
 
 export default HomePage;

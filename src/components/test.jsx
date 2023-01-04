@@ -28,27 +28,29 @@ function Test() {
 
 	return (
 		<main>
-			<div className="products">
+			<div classNameName="products">
 				<h1>Mon panier</h1>
-				<p className="total">Total : 270 €</p>
-				<button className="commander">Passer la commande (3 articles)</button>
+				<p classNameName="total">Total : 270 €</p>
+				<button classNameName="commander">
+					Passer la commande (3 articles)
+				</button>
 				{merchData.map((value) => (
-					<div className="product" key={value.id}>
-						<div className="wrap-img">
+					<div classNameName="product" key={value.id}>
+						<div classNameName="wrap-img">
 							<img src={value.image} alt="product" />
 						</div>
-						<div className="wrap-info">
-							<p className="produit">{value.title}</p>
-							<p className="note">Noté {value.rating.rate}</p>
-							<p className="product-price">100 €</p>
-							<p className="avaible">
+						<div classNameName="wrap-info">
+							<p classNameName="produit">{value.title}</p>
+							<p classNameName="note">Noté {value.rating.rate}</p>
+							<p classNameName="product-price">100 €</p>
+							<p classNameName="avaible">
 								Il reste {value.rating.count} exemplaires disponible
 							</p>
 						</div>
 					</div>
 				))}
 
-				<div className="separator" />
+				<div classNameName="separator" />
 			</div>
 		</main>
 	);
