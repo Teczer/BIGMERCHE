@@ -1,9 +1,15 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import Test from "./components/test";
+import Category from "./components/category/Category";
+
 
 function App() {
-	return <Test />;
+	return( <>
+		<Category />
+	</>
+		
+	)
+	 
 }
 
 export default App;
