@@ -1,7 +1,6 @@
-
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
-    return <h2>Home</h2>;
-}
-
+  return <Link to={"detail/25"}>go</Link>;
+};
 export default HomePage;

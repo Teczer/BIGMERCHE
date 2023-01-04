@@ -1,9 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Test from "./components/test";
+import { Routes, Route, useLocation, RouterProvider } from "react-router-dom";
+import router from "./Services/Router";
 
 function App() {
-	return <Test />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
