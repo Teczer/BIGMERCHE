@@ -16,11 +16,11 @@ const router = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: 'Panier',
+                path: 'panier',
                 element: <PanierPage />
             },
             {
-                path: 'Detail',
+                path: 'detail/:id',
                 element: <DetailPage/>
             },
         ],
