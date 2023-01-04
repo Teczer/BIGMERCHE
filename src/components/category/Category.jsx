@@ -3,7 +3,6 @@ import "./category.css"
 function Category () {
   return (
   <>
-    <h2>Electronic</h2>
       <section>
       
           <a href="">

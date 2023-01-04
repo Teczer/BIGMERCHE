@@ -6,6 +6,15 @@ import Category from "./components/category/Category";
 function App() {
 	return( <>
 		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
+		<Category />
 	</>
 		
 	)
