@@ -19,11 +19,11 @@ const router = createBrowserRouter([
         element: <PanierPage />,
       },
       {
-        path: "detail/:id",
+        path: "detail",
         element: <DetailPage />,
       },
       {
-        path: "product/:var",
+        path: "product/:id",
         element: <Productmain />,
       },
     ],
