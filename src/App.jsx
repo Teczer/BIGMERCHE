@@ -1,14 +1,8 @@
-
-import HomePage from "./pages/HomePage";
-// import Test from "./components/test";
+import { Routes, Route, useLocation, RouterProvider } from "react-router-dom";
+import router from "./Services/Router";
 
 function App() {
-	return(
-		<>
-		<HomePage/>
-		</>
-	)
-	// return <Test />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;

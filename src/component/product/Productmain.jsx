@@ -1,14 +1,20 @@
-import './product.css'
+import "./product.css";
+import Hero from "./product/Hero";
+import { Link } from "react-router-dom";
 
-const Productmain = () =>{
-    return <>
-        <header>
-        <i class="fas fa-bars"/>
+const Productmain = () => {
+  return (
+    <>
+      <Link to={"Product/25"}>test</Link>
+      <header>
+        <i className="fas fa-bars" />
         <h1>My Store</h1>
         <div id="pannier">0</div>
-        <i class="fa-solid fa-bag-shopping" />       
-    </header>
+        <i className="fa-solid fa-bag-shopping" />
+      </header>
+      <Hero />
     </>
-}
+  );
+};
 
-export default Productmain
+export default Productmain;
