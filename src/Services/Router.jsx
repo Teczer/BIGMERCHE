@@ -3,6 +3,7 @@ import DetailPage from "../pages/DetailPage";
 import HomePage from "../pages/HomePage";
 import PanierPage from "../pages/PanierPage";
 import RootLayout from "../layouts/RootLayout";
+import Productmain from "../component/product/Productmain";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "product/:var",
-        element: <Produits />,
+        element: <Productmain />,
       },
     ],
   },
