@@ -1,10 +1,9 @@
-
 const PanierPage = () => {
-    return(
-        <>
-        
-        </>
-    )
-}
+  return (
+    <>
+      <h1>Panier</h1>
+    </>
+  );
+};
 
 export default PanierPage;
