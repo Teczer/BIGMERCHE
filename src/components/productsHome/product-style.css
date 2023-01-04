@@ -8,7 +8,9 @@ main {
     margin-top: 20px;
     background-color: #fafafa;
   }
-
+article{
+  cursor: pointer;
+}
 .product {
     display: flex;
     justify-content: flex-start;

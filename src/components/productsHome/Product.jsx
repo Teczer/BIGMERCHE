@@ -2,7 +2,7 @@ import axios from "axios";
 import "./product-style.css";
 import { useState } from "react";
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 
 const baseURL = "https://fakestoreapi.com/products";
 
@@ -19,13 +19,11 @@ export default function ProdHome() {
 
 	return (
 		<>
-		{/* tableau pour mapper les produit de l'api */}
+			{/* tableau pour mapper les produit de l'api */}
 			{produit.map((produit) => (
-
 				// l'appelation des prod
-				
-				<article className="product" key={produit.id}>
 
+				<article className="product" key={produit.id}>
 					<figure className="wrap-img">
 						<img src={produit.image} alt="prod" />
 					</figure>

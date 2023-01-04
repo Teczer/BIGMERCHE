@@ -1,17 +1,16 @@
 import { Link } from "react-router-dom";
 // import PanierPage from "../../pages/PanierPage";
-// import Router from ""
 
 const Nav = () => {
-<<<<<<< HEAD
-  return (
-    <>
-      <header>
-        {/* <div className="burger">
+	return (
+		<>
+			<header>
+				{/* <div className="burger">
 =======
 	return (
 		<>
 			<header>
+<<<<<<< HEAD
 				{/* <div className="burger">
 >>>>>>> 7c8a52e93a6ea555ba33645000ca727ce40d4745
         <Link to={'/'}><i className="fa-solid fa-bars"></i></Link>
@@ -23,15 +22,21 @@ const Nav = () => {
         <Link to={'/Panier'}><i className="fa-solid fa-cart-shopping"></i></Link>
         
       </div> */}
-<<<<<<< HEAD
-      </header>
-    </>
-  );
+			</header>
+		</>
+	);
 };
 
 {
-  /* <Link to={'/'}> </Link>
+	/* <Link to={'/'}> </Link>
 =======
+=======
+				
+        <Link to={'/'}> Home </Link>
+        <Link to={'/Panier'}> Panier </Link>
+        
+      
+>>>>>>> Islame
 			</header>
 		</>
 	);
