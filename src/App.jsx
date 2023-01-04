@@ -6,7 +6,6 @@ function App() {
 	return(
 		<>
 		<HomePage/>
-		
 		</>
 	)
 	// return <Test />;

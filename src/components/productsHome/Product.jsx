@@ -1,5 +1,4 @@
 import axios from "axios";
-// import React from "react";
 import "./product-style.css";
 import { useState } from "react";
 import React, { useEffect } from "react";
@@ -24,7 +23,9 @@ export default function ProdHome() {
 			{produit.map((produit) => (
 
 				// l'appelation des prod
-				<article className="product">
+				
+				<article className="product" key={produit.id}>
+
 					<figure className="wrap-img">
 						<img src={produit.image} alt="prod" />
 					</figure>
@@ -32,7 +33,7 @@ export default function ProdHome() {
 						<p className="produit">{produit.title}</p>
 						<p className="category">{produit.category}</p>
 						<p className="product-price">{produit.price}</p>
-						<p className="desc">{produit.description}</p>
+						{/* <p className="desc">{produit.description}</p> */}
 					</div>
 				</article>
 			))}
