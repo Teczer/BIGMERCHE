@@ -19,7 +19,7 @@ import React from "react";
       <div>
         <h1>{produit.title}</h1>
         <p>{produit.description}</p>
-        <img src={produit.image} alt=""  />
+        <img src={produit.image} alt="a"  />
       </div>
     )
   }
