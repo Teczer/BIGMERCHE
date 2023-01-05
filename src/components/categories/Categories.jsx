@@ -20,7 +20,9 @@ function Categories() {
 
 	return (
 		<>
+
 			{categorie.map((categorie) => (
+
 				<Product key={crypto.randomUUID()} produitProps={categorie} />
 			))}
 		</>
