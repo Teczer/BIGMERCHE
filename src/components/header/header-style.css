@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    color: #0f1111;
+    width: 100vw;
+    height: 10vh;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  header > .burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .burger > i {
+    font-size: 30px;
+  }
+  
+  .panier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .panier > i {
+    font-size: 25px;
+  }
+  
+  .panier > p {
+    font-size: 20px;
+  }
+  
+/* main liste*/
+
+.menu-list{
+   font-size: 2em;
+   text-decoration: none;
+   margin-left:1rem ;
+}
+
+.menu-list>ul>li:first-child{
+    font-size: 3rem;
+}

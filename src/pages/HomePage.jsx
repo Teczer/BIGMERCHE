@@ -1,6 +1,14 @@
-import { Link } from "react-router-dom";
+
+import Header from "../components/header/Header";
+import ProductHome from "../components/productsHome/ProductHome";
+
 
 const HomePage = () => {
-  return <Link to={"detail/25"}>go</Link>;
+	return (
+    <>
+  <Header />
+  <ProductHome />
+  </>
+  );
 };
 export default HomePage;
