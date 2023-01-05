@@ -35,18 +35,21 @@ img{
 } 
 .category h2{
     font-size: smaller;
+    margin: 10px;
 } 
 button {
-    width: 71vw;
+    width: 80vw;
     height: 10vh;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     text-align: center;
-    margin: 12px 53px;
     background: transparent;
-    color: rgb(0, 0, 0);
-    text-align: center;
     padding: 100;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 p{
     text-align: center;
     font-size: 13px;

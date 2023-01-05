@@ -10,4 +10,5 @@ body {
 }
 #root{
   background-color: #b4b4b4;
+  overflow-x: hidden
 }
