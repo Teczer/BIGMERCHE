@@ -1,17 +1,92 @@
-/* figure{
+figure{
     width: 80vw;
     margin: 35px auto;
     border: 1px solid rgb(0, 0, 0);
     height: 60vh;
-} */
-#wrapper div h1{
-    margin: -29px -16px auto;
-    font-size: 37px;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+#head{
+    display: flex;
+    align-items: center;
+}
+#wrapper div h2{
+    font-size: 12px;
 }
 #wrapper div h3{
-    margin-top: 80px;
-    padding: 10%;
-    font-size: 30px;
+    padding: 10%;    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.category{
+    width: 80vw;
+    height: 10vh;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+} 
+.category h2{
+    font-size: smaller;
+} 
+button {
+    width: 71vw;
+    height: 10vh;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 12px 53px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Les etoiles  */
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
 }
