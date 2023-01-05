@@ -28,7 +28,7 @@ function Jewelery() {
             <h4>
               <a href="">{value.title} </a>
             </h4>
-            <h3>Brand</h3>
+            <h3>Brandd</h3>
           </hgroup>
 
           <h3>{value.price} $</h3>
