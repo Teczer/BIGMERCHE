@@ -1,50 +1,27 @@
+import React from "react";
 import { Link } from "react-router-dom";
-// import PanierPage from "../../pages/PanierPage";
-
-const Nav = () => {
+import Categories from "../categories/Categories";
+import "./header-style.css";
+export default function Header() {
   return (
     <>
       <header>
-        {/* <div classNameName="burger">
-=======
-	return (
-		<>
-			<header>
-<<<<<<< HEAD
-				{/* <div classNameName="burger">
->>>>>>> 7c8a52e93a6ea555ba33645000ca727ce40d4745
-        <Link to={'/'}><i classNameName="fa-solid fa-bars"></i></Link>
-        <h2>BIG MERCHE</h2>
-      </div>
-
-      <div classNameName="panier">
-        <p>0</p>
-        <Link to={'/Panier'}><i classNameName="fa-solid fa-cart-shopping"></i></Link>
-        
-      </div> */}
+        <div class="burger">
+          <i class="fa-solid fa-bars"> </i>
+          <h2>BIG MERCHE</h2>
+        </div>
+        <Link to="panier">
+          <div class="panier">
+            <p>3</p>
+            <i class="fa-solid fa-cart-shopping"> </i>
+          </div>
+        </Link>
       </header>
+      <main class="menu-list">
+        <Categories />
+      </main>
     </>
   );
-};
-
-{
-  /* <Link to={'/'}> </Link>
-=======
-=======
-				
-        <Link to={'/'}> Home </Link>
-        <Link to={'/Panier'}> Panier </Link>
-        
-      
->>>>>>> Islame
-			</header>
-		</>
-	);
-};
-
-{
-	/* <Link to={'/'}> </Link>
->>>>>>> 7c8a52e93a6ea555ba33645000ca727ce40d4745
-<Link to={'/Panier'}> </Link>
-<Link to={'/Detail'}> </Link> */
 }
+
+// rfc tab
