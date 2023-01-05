@@ -5,7 +5,9 @@
   color: #0f1111;
   font-family: "Montserrat", sans-serif;
 }
-
 body {
   background-color: #fafafa;
+}
+#root{
+  background-color: #b4b4b4;
 }
