@@ -1,20 +1,11 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import Category from "./components/category/Category";
+import Jewelery from "./components/category/Jewelery";
 
 
 function App() {
 	return( <>
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
-		<Category />
+		<Jewelery />
 	</>
 		
 	)

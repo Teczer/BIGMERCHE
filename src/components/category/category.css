@@ -3,6 +3,11 @@ h2 {
     margin-top: 10px;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 section {
     width: 97%;
     background: rgba(0, 0, 0, 0.315);
@@ -27,4 +32,8 @@ hgroup {
     position: absolute;
     top: 30px;
     left: 140px;
+}
+
+section > hgroup {
+    font-size: 10px;
 }
