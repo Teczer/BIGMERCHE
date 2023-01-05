@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import PanierPage from "../pages/PanierPage";
 import RootLayout from "../layouts/RootLayout";
 import Productmain from "../component/product/Productmain";
+import Jewelery from "../components/category/Jewelery";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "product/:id",
         element: <Productmain />,
+      },
+      {
+        path: "category/:category",
+        element: <Jewelery />,
       },
     ],
   },
