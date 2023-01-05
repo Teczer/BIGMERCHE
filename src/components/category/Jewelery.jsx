@@ -2,19 +2,22 @@ import "./category.css";
 import axios from "axios";
 import { useState } from "react";
 import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 function Jewelery() {
   const [getjewelery, setGetJewelery] = useState([]);
+  const params = useParams();
 
   async function getJeweleryData() {
     const response = await axios.get(
-      "https://fakestoreapi.com/products/category/jewelery"
+      `https://fakestoreapi.com/products/category/${params.category}`
     );
     console.log(response.data);
     setGetJewelery(response.data);
   }
   useEffect(() => {
     getJeweleryData();
+    console.log("ceestmoi", params);
   }, []);
   return (
     <>
