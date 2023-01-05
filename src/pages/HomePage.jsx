@@ -1,12 +1,14 @@
-import Categories from "../components/categories/Categories";
+
+import Header from "../components/header/Header";
 import ProductHome from "../components/productsHome/ProductHome";
+
 
 const HomePage = () => {
 	return (
     <>
-
-  {/* <ProductHome /> */}
-  <Categories />
+  <Header />
+  <ProductHome />
+  
 
 
   </>

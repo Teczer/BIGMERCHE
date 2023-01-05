@@ -1,11 +1,10 @@
 import { useState } from "react";
 import React, { useEffect } from "react";
 import axios from "axios";
-import Product from "../product/Product";
 
-
-const baseURL = "https://fakestoreapi.com/products/category/jewelery";
 function Categories() {
+	// const {id} = useParams();
+	const baseURL = "https://fakestoreapi.com/products/categories";
 	const [categorie, setCategorie] = useState();
 
 	useEffect(() => {
@@ -23,7 +22,7 @@ function Categories() {
 
 			{categorie.map((categorie) => (
 
-				<Product key={crypto.randomUUID()} produitProps={categorie} />
+				<p key={crypto.randomUUID()}>{categorie}</p>
 			))}
 		</>
 	);
