@@ -20,11 +20,14 @@ export default function ProductHome() {
 
 	return (
 		<>
-			{/* tableau pour mapper les produit de l'api */}
+
+			
 			{produit.map((produit) => (
-				// l'appelation des prod // {crypto.randomUUID() = serre a generer des keys
+				
+				
 				<Product key={crypto.randomUUID()} produitProps={produit} />
 			))}
+
 		</>
 	);
 }
