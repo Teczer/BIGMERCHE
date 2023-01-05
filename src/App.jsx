@@ -1,15 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Jewelery from "./components/category/Jewelery";
-
+import { Routes, Route, useLocation, RouterProvider } from "react-router-dom";
+import router from "./Services/Router";
 
 function App() {
-	return( <>
-		<Jewelery />
-	</>
-		
-	)
-	 
+  return <RouterProvider router={router} />;
 }
 
 export default App;
