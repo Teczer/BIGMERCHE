@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import "./test.css";
 import axios from "axios";
+import Header from "./header/Header";
 
 function PanierPage() {
 	const [merchData, setMerchData] = useState([]);
@@ -17,6 +18,7 @@ function PanierPage() {
 	}, []);
 	return (
 		<main>
+			<Header />
 			<div className="products">
 				<h1>Mon panier</h1>
 				<p className="total">Total : 270 €</p>

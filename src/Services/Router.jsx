@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import DetailPage from "../pages/DetailPage";
 import HomePage from "../pages/HomePage";
-import PanierPage from "../pages/PanierPage";
+import PanierPage from "../components/test";
 import RootLayout from "../layouts/RootLayout";
 import Productmain from "../component/product/Productmain";
 import Jewelery from "../components/category/Jewelery";
