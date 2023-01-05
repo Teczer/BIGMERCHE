@@ -8,9 +8,6 @@ const HomePage = () => {
     <>
   <Header />
   <ProductHome />
-  
-
-
   </>
   );
 };
